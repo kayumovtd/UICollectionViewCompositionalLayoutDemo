@@ -25,7 +25,6 @@ final class SectionsLayoutViewController: BaseInitializeableViewController {
 
         collectionView.register(cellClass: CollectionCell.self)
         collectionView.register(supplementaryViewClass: SimpleSupplementaryView.self, ofKind: .sectionHeader)
-        collectionView.register(supplementaryViewClass: SimpleSupplementaryView.self, ofKind: .sectionFooter)
 
         applySnapshot()
     }
